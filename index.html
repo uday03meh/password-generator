@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+  <main>
+    <section>
+      <h1>Generate a<br><span>random password</span></h1>
+      <h3>Never use insecure passwords</h3>
+    </section>
+
+    <section>
+      <button id="btn">Generate Password</button>
+    </section>
+
+    <section>
+      <div>
+        <span id="password-slider-text">Length: <label for="slider" id="sliderNumber">8</label></span>
+        <input type="range" min="4" max="12" value="8" class="slider" id="slider" name="slider"></input>
+      </div>
+
+        <label for="passwordUppercase">
+        <input checked type="checkbox" id="passwordUppercase" name="passwordUppercase">Uppercase characters
+      </label>
+
+        <label for="passwordSymbols">
+        <input checked type="checkbox" id="passwordSymbols" name="passwordSymbols">Symbols
+      </label>
+
+        <label for="passwordNumbers">
+        <input checked type="checkbox" id="passwordNumbers" name="passwordNumbers">Numbers
+      </label>
+    </section>
+
+    <section>
+      <div id = "password-div" class="randomPassword">
+        <span id="copyToClipboard">Copy to clipboard</span>
+      </div>
+    </section>
+  </main>
+</div>
+  <script src="index.js"></script>
+</body>
+
+</html>

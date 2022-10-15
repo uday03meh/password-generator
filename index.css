@@ -1,0 +1,72 @@
+
+body {
+    color: #fff;
+    background: #1F2937;
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    justify-content:center;
+    text-align: left;
+}
+
+.container {
+    width: 35%;
+    margin: auto;
+    min-width: 200px;
+}
+::selection {
+    background: #b4ff39;
+    color: #170f1e;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+h1 span {
+    color: #4ADF86;
+    margin-top: 0px;
+}
+
+h3 {
+    color: #D5D4D8;
+    font-weight: 300;
+    width: 60%;
+}
+#btn {
+    color: white;
+    background-color: #4ADF86;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 6px;
+    width: 20%;
+    min-width: 150px;
+    text-shadow: 0px 0px 5px #000;
+    font-weight: 700;
+    display: block;
+    margin: 15px auto;
+}
+
+
+.randomPassword {
+    margin: 10px auto;
+    background: #273549;
+    color: #55F991;
+    max-width: 200px;
+    min-width:50px;
+    padding: 10px 12.5px;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#subsBtn, #addBtn {
+    border-radius: 100%;
+}
+
+#slider_value2 {
+    color: white;
+    display: block;
+    width: 60%;
+    margin: auto;
+}
