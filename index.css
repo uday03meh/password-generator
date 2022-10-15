@@ -13,7 +13,7 @@ body {
     width:30%;
     height: 500px;
     min-width: 200px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 ::selection {
     background: #b4ff39;
