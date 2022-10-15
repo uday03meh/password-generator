@@ -59,14 +59,3 @@ h3 {
     text-align: center;
     cursor: pointer;
 }
-
-#subsBtn, #addBtn {
-    border-radius: 100%;
-}
-
-#slider_value2 {
-    color: white;
-    display: block;
-    width: 60%;
-    margin: auto;
-}
