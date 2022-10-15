@@ -7,7 +7,6 @@ const numberCharacters = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 const specialCharacters = ['!', '@', '#', '$', '%', '^', '&', '*']
 
 let passwordGenerator = document.querySelector('button')
-// let passwordLength = document.querySelector('#passwordLength')
 let passwordLength = 8;
 
 let randomPassword = document.querySelectorAll('.randomPassword')
@@ -65,6 +64,5 @@ randomPassword.forEach(function (passwordClipboard) {
         });
         popUp.classList.remove('popUp')
         alert("Copied to clipboard")
-
     })
 })
