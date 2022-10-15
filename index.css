@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    width: 35%;
+    width: 40%;
     margin: auto;
     min-width: 200px;
 }
@@ -21,17 +21,19 @@ body {
 h1 {
     font-weight: 800;
     font-size: 2.5rem;
+    margin: 0px;
 }
 
 h1 span {
     color: #4ADF86;
-    margin-top: 0px;
+    margin: 0px;
 }
 
 h3 {
     color: #D5D4D8;
     font-weight: 300;
     width: 70%;
+    margin-top: 10px;
 }
 #btn {
     color: white;
@@ -54,10 +56,15 @@ h3 {
     align-items: center;
 }
 
+label {
+    /* border: 2px solid yellow; */
+    margin: 3px
+
+}
 .options {
     margin: 10px auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .randomPassword {
     margin: 10px auto;

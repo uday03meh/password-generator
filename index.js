@@ -61,6 +61,8 @@ randomPassword.forEach(function (passwordClipboard) {
     passwordClipboard.addEventListener('click', function (e) {
         navigator.clipboard.writeText(passwordClipboard.innerHTML).then(() => {
             popUp.classList.add('popUp')
+            alert("Copied to clipboard")
+
         });
         popUp.classList.remove('popUp')
         alert("Copied to clipboard")
