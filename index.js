@@ -51,20 +51,23 @@ console.log(passwordOptions)
             let myArray = passwordOptions[Math.floor(Math.random() * passwordOptions.length)]
             generatedPassword += myArray[Math.floor(Math.random() * myArray.length)]
         }
-        passwordDiv.innerHTML = generatedPassword
+        document.getElementById("myInput").value = generatedPassword
         generatedPassword = ''
         passwordOptions = [lowercaseCharacters]
     })
 }
 
-randomPassword.forEach(function (passwordClipboard) {
-    passwordClipboard.addEventListener('click', function (e) {
-        navigator.clipboard.writeText(passwordClipboard.innerHTML).then(() => {
-            popUp.classList.add('popUp')
-            alert("Copied to clipboard")
-
-        });
-        popUp.classList.remove('popUp')
-        alert("Copied to clipboard")
-    })
-})
+function myFunction() {
+    // Get the text field
+    var copyText = document.getElementById("myInput");
+  
+    // Select the text field
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); // For mobile devices
+  
+     // Copy the text inside the text field
+    navigator.clipboard.writeText(copyText.value);
+  
+    // Alert the copied text
+    alert("Copied the text: " + copyText.value);
+  }
