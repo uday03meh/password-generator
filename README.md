@@ -1,4 +1,4 @@
-# Pssword Generator
+# Password Generator
 
 [Live Site](https://uday03meh-password-generator.netlify.app/)
 
