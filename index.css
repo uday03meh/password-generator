@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    width: 40%;
+    width:30%;
     margin: auto;
     min-width: 200px;
 }
@@ -34,11 +34,12 @@ h3 {
     font-weight: 300;
     width: 70%;
     margin-top: 10px;
+    margin-bottom: 0px;
 }
 #btn {
     color: white;
     background-color: #4ADF86;
-    padding: 10px 10px;
+    padding: 10px 15px;
     border: none;
     border-radius: 6px;
     width: 20%;
@@ -64,7 +65,7 @@ label {
 .options {
     margin: 10px auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 .randomPassword {
     margin: 10px auto;
