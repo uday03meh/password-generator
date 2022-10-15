@@ -31,7 +31,7 @@ h1 span {
 h3 {
     color: #D5D4D8;
     font-weight: 300;
-    width: 60%;
+    width: 70%;
 }
 #btn {
     color: white;
@@ -47,7 +47,18 @@ h3 {
     margin: 15px auto;
 }
 
+#slider-div {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.options {
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
 .randomPassword {
     margin: 10px auto;
     background: #273549;
