@@ -46,7 +46,7 @@ function generatePassword() {
         } if (document.getElementById('passwordNumbers').checked) {
             passwordOptions.push(numberCharacters)
         }
-console.log(passwordOptions)
+// console.log(passwordOptions)
         for (i = 0; i < passwordLength; i++) {
             let myArray = passwordOptions[Math.floor(Math.random() * passwordOptions.length)]
             generatedPassword += myArray[Math.floor(Math.random() * myArray.length)]
