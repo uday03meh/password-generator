@@ -10,11 +10,12 @@
 </head>
 
 <body>
-    <div class="container">
   <main>
+    <div class="container">
+
     <section>
       <h1>Generate a<br><span>random password</span></h1>
-      <h3>Never use an insecure password again.</h3>
+      <h3 class="light-text">Never use an insecure password again.</h3>
     </section>
 
 
@@ -38,15 +39,22 @@
     </div>
     </section>
 
-    <button class="btn">Generate!</button>
+    <button class="btn">
+      <svg width="14" height="18" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M8.3.046A1 1 0 0 1 9 1v5h4a1 1 0 0 1 .82 1.573l-7 10A1 1 0 0 1 5 17v-5H1a1 1 0 0 1-.82-1.573l7-10A1 1 0 0 1 8.3.047Z" fill="#fff"/>
+      </svg>
+      <span>Generate!</span>
+  </button>
 
     <section>
       <div id = "password-div" class="randomPassword">
         <input type="text" value="" id="myInput" onclick="myFunction()" readonly>
+        <div class="light-text">Click on password to copy!</div>
       </div>
     </section>
-  </main>
 </div>
+</main>
+
   <script src="index.js"></script>
 </body>
 </html>
