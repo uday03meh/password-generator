@@ -69,5 +69,6 @@ function myFunction() {
     navigator.clipboard.writeText(copyText.value);
   
     // Alert the copied text
-    alert("Copied the text: " + copyText.value);
+    // alert("Copied the text: " + copyText.value);
+    alert("Copied to Clipboard!")
   }
