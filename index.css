@@ -1,34 +1,22 @@
 
 body {
     color: #fff;
-    background: #1F2937;
+    background: #1C1C1C;
     font-family: 'Karla', sans-serif;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     text-align: center;
 }
 
 .container {
-    width:30%;
-    height: 500px;
-    min-width: 200px;
-    /* border: 2px solid red; */
-}
-
-.container {
-    width: min(90%, 33rem);
-    padding: 2em;
-    background-color: #1f2937;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 50vh;
-    border-radius: 0.25em;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),
-      0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),
-      0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+    background: #1F2937; 
+    position: absolute;
+top: 50%;
+transform: translate(-50%, -50%);
+padding: 10px;
+border-radius:10px;
+padding:  3rem 5rem;
   }
 
 ::selection {
