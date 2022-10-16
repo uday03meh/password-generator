@@ -33,9 +33,6 @@ window.addEventListener('load', (e) => {
 
 passwordGenerator.addEventListener('click', generatePassword)
 
-addButton.addEventListener('click', increaseOne)
-subsButton.addEventListener('click', decreaseOne)
-
 //!Functions
 function generatePassword() {
     randomPassword.forEach(function (passwordDiv) {
