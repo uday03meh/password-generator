@@ -2,7 +2,7 @@
 
 [Live Site](https://uday03meh-password-generator.netlify.app/)
 
-<a href="https://uday03meh-password-generator.netlify.app/"><img src="https://user-images.githubusercontent.com/59679281/195969174-2ebf489d-b728-49a5-904b-e315447deaa1.png" alt="screenshot"></a>
+<a href="https://uday03meh-password-generator.netlify.app/"><img src="https://user-images.githubusercontent.com/59679281/196033133-6e7bc851-c886-4497-b063-cb8c1d1f034c.png" alt="screenshot"></a>
 
 
 
