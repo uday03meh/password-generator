@@ -10,7 +10,7 @@ let passwordGenerator = document.querySelector('button')
 let passwordLength = 8;
 
 let randomPassword = document.querySelectorAll('.randomPassword')
-let passwordOptions = [lowercaseCharacters]
+let passwordOptions = []
 let generatedPassword = ''
 
 let addButton = document.getElementById('addBtn')
@@ -36,7 +36,9 @@ passwordGenerator.addEventListener('click', generatePassword)
 //!Functions
 function generatePassword() {
     randomPassword.forEach(function (passwordDiv) {
-         if (document.getElementById('passwordUppercase').checked) {
+         if (document.getElementById('passwordLowercase').checked) {
+            passwordOptions.push(lowercaseCharacters)
+        } if (document.getElementById('passwordUppercase').checked) {
             passwordOptions.push(uppercaseCharacters)
         } if (document.getElementById('passwordSymbols').checked) {
             passwordOptions.push(specialCharacters)
@@ -44,13 +46,18 @@ function generatePassword() {
             passwordOptions.push(numberCharacters)
         }
 // console.log(passwordOptions)
-        for (i = 0; i < passwordLength; i++) {
-            let myArray = passwordOptions[Math.floor(Math.random() * passwordOptions.length)]
-            generatedPassword += myArray[Math.floor(Math.random() * myArray.length)]
+	try { 
+            for (i = 0; i < passwordLength; i++) {
+                let myArray = passwordOptions[Math.floor(Math.random() * passwordOptions.length)]
+                generatedPassword += myArray[Math.floor(Math.random() * myArray.length)]
+            }
+            document.getElementById("myInput").value = generatedPassword
+        } 
+        catch (TypeError) {
+            document.getElementById("myInput").value = "No Boxes Checked"
         }
-        document.getElementById("myInput").value = generatedPassword
         generatedPassword = ''
-        passwordOptions = [lowercaseCharacters]
+        passwordOptions = []
     })
 }
 
