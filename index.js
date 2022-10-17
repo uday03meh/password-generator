@@ -46,11 +46,16 @@ function generatePassword() {
             passwordOptions.push(numberCharacters)
         }
 // console.log(passwordOptions)
-        for (i = 0; i < passwordLength; i++) {
-            let myArray = passwordOptions[Math.floor(Math.random() * passwordOptions.length)]
-            generatedPassword += myArray[Math.floor(Math.random() * myArray.length)]
+	try { 
+            for (i = 0; i < passwordLength; i++) {
+                let myArray = passwordOptions[Math.floor(Math.random() * passwordOptions.length)]
+                generatedPassword += myArray[Math.floor(Math.random() * myArray.length)]
+            }
+            document.getElementById("myInput").value = generatedPassword
+        } 
+        catch (TypeError) {
+            document.getElementById("myInput").value = "No Boxes Checked"
         }
-        document.getElementById("myInput").value = generatedPassword
         generatedPassword = ''
         passwordOptions = []
     })
