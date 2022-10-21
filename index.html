@@ -21,10 +21,15 @@
 
 
     <section>
-      <div id="slider-div">
-        <p id="password-slider-text">Length: <div><label for="slider" id="sliderNumber">8</label></div></p>
-        <input type="range" min="4" max="12" value="8" class="slider" id="slider" name="slider"></input>
+      <div class="slider">
+        <span>Length:</span>
+        <div class="range-wrap">
+          <div class="range-value" id="rangeV"></div>
+          <input id="range" type="range" min="4" max="12" value="8" step="1">
+        </div>
       </div>
+     
+ 
 <div class="options">
 
         <label for="passwordLowercase">

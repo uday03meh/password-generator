@@ -15,17 +15,30 @@ let generatedPassword = ''
 
 let addButton = document.getElementById('addBtn')
 let subsButton = document.getElementById('subsBtn')
-
 let popUp = document.getElementById('copyToClipboard')
 const slider = document.getElementById("slider");
 let sliderNumber = document.getElementById("sliderNumber");
+
+// Slider value bubble
+const
+	range = document.getElementById('range'),
+	rangeV = document.getElementById('rangeV'),
+	setValue = ()=>{
+		const
+			newValue = Number( (range.value - range.min) * 100 / (range.max - range.min) ),
+			newPosition = 10 - (newValue * 0.2);
+		rangeV.innerHTML = `<span>${range.value}</span>`;
+		rangeV.style.left = `calc(${newValue}% + (${newPosition}px))`;
+	};
+document.addEventListener("DOMContentLoaded", setValue);
+range.addEventListener('input', setValue);
+
 // Create an input event listener for slider element
-slider.addEventListener("input", function () {
-    // Display the value of the slider
-    sliderNumber.textContent = `${slider.value}`;
+range.addEventListener("input", function () {
     // Assign to passwordLength new value
-    passwordLength = slider.value;
+    passwordLength = range.value;
   });
+
 //!Event Listeners
 window.addEventListener('load', (e) => {
     generatePassword()
