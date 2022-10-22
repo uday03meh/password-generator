@@ -67,7 +67,8 @@ function generatePassword() {
             document.getElementById("myInput").value = generatedPassword
         } 
         catch (TypeError) {
-            alert("No Boxes Checked. Kindly check at least one box")
+            alert("No Boxes Checked. Kindly check at least one box");
+            document.getElementById("myInput").value = "";
         }
         generatedPassword = ''
         passwordOptions = []
