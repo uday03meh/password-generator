@@ -202,7 +202,7 @@ label {
 
 .viewOnGitHub{
     all : unset;
-    background-color: #33a6f2;
+    background-color: #293d49;
     font-family: 'Karla', sans-serif;
     padding : 0.7rem 1rem;
     border-radius: 0.2rem;
@@ -212,7 +212,7 @@ label {
 }
 
 .viewOnGitHub:hover{
-    box-shadow: 0 0 0.5rem #1197f1;
+    box-shadow: 0 0 0 1.5px #c865d9;
     cursor: pointer;
 }
 
