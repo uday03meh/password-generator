@@ -11,11 +11,10 @@ body {
 
 .container {
     background: #1F2937; 
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    margin : auto;
+    margin-top : 20vh;
     border-radius:10px;
-    padding:  2rem 3rem 3rem;
+    padding:  2rem 3rem 2.5rem;
     min-width: 310px;
   }
 
@@ -199,5 +198,21 @@ label {
     min-width: 150px;
     font-weight: 400;
     margin-top: 10px;
+}
+
+.viewOnGitHub{
+    all : unset;
+    background-color: #33a6f2;
+    font-family: 'Karla', sans-serif;
+    padding : 0.7rem 1rem;
+    border-radius: 0.2rem;
+    font-weight: bold;
+    display: inline-block;
+    margin-top : 2rem;
+}
+
+.viewOnGitHub:hover{
+    box-shadow: 0 0 0.5rem #1197f1;
+    cursor: pointer;
 }
 
