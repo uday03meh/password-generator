@@ -15,7 +15,8 @@ body {
     top: 50%;
     transform: translate(-50%, -50%);
     border-radius:10px;
-    padding:  2rem 4.3rem 3rem;
+    padding:  2rem 3rem 3rem;
+    min-width: 310px;
   }
 
 ::selection {
