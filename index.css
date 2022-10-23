@@ -15,7 +15,7 @@ body {
     top: 50%;
     transform: translate(-50%, -50%);
     border-radius:10px;
-    padding:  2rem 3rem 3rem;
+    padding:  2rem 3rem 2rem;
     min-width: 310px;
   }
 
@@ -208,6 +208,9 @@ label {
     padding : 0.7rem 1rem;
     border-radius: 0.2rem;
     font-weight: bold;
+    position: absolute;
+    top: 80%;
+    transform: translate(-50%, -50%);
 }
 
 .viewOnGitHub:hover{

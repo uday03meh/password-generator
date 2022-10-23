@@ -14,61 +14,62 @@
   <main>
     <div class="container">
 
-    <section>
-      <h1>Generate a<br><span>random password</span></h1>
-      <h3 class="light-text">Never use an insecure password again.</h3>
-    </section>
+      <section>
+        <h1>Generate a<br><span>random password</span></h1>
+        <h3 class="light-text">Never use an insecure password again.</h3>
+      </section>
 
 
-    <section>
-      <div class="slider">
-        <span>Length: </span>
-        <div class="range-wrap">
-          <div class="range-value" id="rangeV"></div>
-          <input id="range" type="range" min="4" max="12" value="8" step="1">
+      <section>
+        <div class="slider">
+          <span>Length: </span>
+          <div class="range-wrap">
+            <div class="range-value" id="rangeV"></div>
+            <input id="range" type="range" min="4" max="12" value="8" step="1">
+          </div>
         </div>
-      </div>
-     
- 
-<div class="options">
-
-        <label for="passwordLowercase">
-        <input checked type="checkbox" id="passwordLowercase" name="passwordLowercase">Lowercase letters
-      </label>
       
-        <label for="passwordUppercase">
-        <input checked type="checkbox" id="passwordUppercase" name="passwordUppercase">Uppercase letters
-      </label>
+  
+  <div class="options">
 
-        <label for="passwordSymbols">
-        <input checked type="checkbox" id="passwordSymbols" name="passwordSymbols">Symbols
-      </label>
+          <label for="passwordLowercase">
+          <input checked type="checkbox" id="passwordLowercase" name="passwordLowercase">Lowercase letters
+        </label>
+        
+          <label for="passwordUppercase">
+          <input checked type="checkbox" id="passwordUppercase" name="passwordUppercase">Uppercase letters
+        </label>
 
-        <label for="passwordNumbers">
-        <input checked type="checkbox" id="passwordNumbers" name="passwordNumbers">Numbers
-      </label>
-    </div>
-    </section>
+          <label for="passwordSymbols">
+          <input checked type="checkbox" id="passwordSymbols" name="passwordSymbols">Symbols
+        </label>
 
-    <button class="btn">
-      <svg width="14" height="18" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd" clip-rule="evenodd" d="M8.3.046A1 1 0 0 1 9 1v5h4a1 1 0 0 1 .82 1.573l-7 10A1 1 0 0 1 5 17v-5H1a1 1 0 0 1-.82-1.573l7-10A1 1 0 0 1 8.3.047Z" fill="#fff"/>
-      </svg>
-      <span>Generate</span>
-  </button>
-
-    <section>
-      <div id = "password-div" class="randomPassword">
-        <input type="text" value="" id="myInput" onclick="copyToClipboard()" readonly>
-        <div id="copy-instruction" class="light-text">Click on password to copy!</div>
+          <label for="passwordNumbers">
+          <input checked type="checkbox" id="passwordNumbers" name="passwordNumbers">Numbers
+        </label>
       </div>
-      <p id="clipboard-toast" class="clipboardToast light-text copyToClipboard">Copied to clipboard</p>
-    </section>
+      </section>
 
+      <button class="btn">
+        <svg width="14" height="18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.3.046A1 1 0 0 1 9 1v5h4a1 1 0 0 1 .82 1.573l-7 10A1 1 0 0 1 5 17v-5H1a1 1 0 0 1-.82-1.573l7-10A1 1 0 0 1 8.3.047Z" fill="#fff"/>
+        </svg>
+        <span>Generate</span>
+      </button>
+
+      <section>
+        <div id = "password-div" class="randomPassword">
+          <input type="text" value="" id="myInput" onclick="copyToClipboard()" readonly>
+          <div id="copy-instruction" class="light-text">Click on password to copy!</div>
+        </div>
+        <p id="clipboard-toast" class="clipboardToast light-text copyToClipboard">Copied to clipboard</p>
+      </section>
+
+    </div>
+    
     <a class="viewOnGitHub" href="https://github.com/uday03meh/password-generator" target="_blank">View On GitHub</a>
 
-</div>
-</main>
+  </main>
 
   <script src="index.js"></script>
 </body>
