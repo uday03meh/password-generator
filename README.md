@@ -15,7 +15,7 @@ Try it -> [Live Site](https://uday03meh-password-generator.netlify.app/)
 <a href="https://uday03meh-password-generator.netlify.app/"><img src="https://user-images.githubusercontent.com/59679281/196033133-6e7bc851-c886-4497-b063-cb8c1d1f034c.png" alt="screenshot"></a>
 
 ### Video Preview
-<video width="100%" controls><source src="preview.mp4" type="video/mp4"></video>
+https://user-images.githubusercontent.com/49382745/197649261-03689f11-956f-407e-9eaa-acb922802130.mp4
 
 ## Tech Stack
 
