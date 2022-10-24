@@ -4,17 +4,16 @@
 
 Built a Password generator using HTML, CSS and JavaScript 🌟
 
-1. Generates a random password of 4-12 characters
+- Generates a Random Password of 4-12 characters.
 
-2. Password can be copied to clipboard in one-click
+- Equiped with one-click Copied to Clipboard option.
 
-3. Gives an option to include uppercase letters, lowercase letters, symbols and numbers.
+- Provides an option to include uppercase letters, lowercase letters, symbols and numbers.
 
-Try it -> [Live Site](https://uday03meh-password-generator.netlify.app/)
 
-<a href="https://uday03meh-password-generator.netlify.app/"><img src="https://user-images.githubusercontent.com/59679281/196033133-6e7bc851-c886-4497-b063-cb8c1d1f034c.png" alt="screenshot"></a>
+[Try it!](https://uday03meh-password-generator.netlify.app/)
 
-### Video Preview
+### Demo
 https://user-images.githubusercontent.com/49382745/197649261-03689f11-956f-407e-9eaa-acb922802130.mp4
 
 ## Tech Stack
