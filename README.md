@@ -38,7 +38,7 @@ Try it -> [Live Site](https://uday03meh-password-generator.netlify.app/)
 
 4.  Add a reference(remote) to the original repository.
 
-        git remote add upstream https://github.com/uday03meh/RockPaperScissors.git
+        git remote add upstream https://github.com/uday03meh/password-generator.git
 
 5.  Check the remotes for this repository.
 
