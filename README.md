@@ -2,7 +2,7 @@
 
 ## About The Project
 
-Built a Password generator using HTML, CSS and JavaScript 🌟
+### Built a Password generator using HTML, CSS and JavaScript 🌟
 
 - Generates a Random Password of 4-12 characters.
 
