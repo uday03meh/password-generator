@@ -41,7 +41,7 @@ h1 span {
     font-weight: 300;
     width: 90%;
     margin: auto;
-    margin-top: 17px;
+    margin-top: 10px;
     margin-bottom: 0px;
 }
 
@@ -110,7 +110,7 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 	background: #10B981;
 }
 .range-wrap{
-	width: 45%;
+    width: 30%;
     margin-left: 10px;
     min-width: 105px;
 	position: relative;
@@ -273,6 +273,5 @@ input{border-radius: 100%;}
 }
 
 .btn{
-   margin-top : 75px;
-   margin-bottom : 25px;
+   margin-top : 60px;
 }
