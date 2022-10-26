@@ -65,6 +65,7 @@ button {
 
 button:hover {
     cursor: pointer;
+    background-color: black;
 }
 
 button:active {
