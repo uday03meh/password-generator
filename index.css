@@ -275,4 +275,6 @@ input{border-radius: 100%;}
 
 .btn{
    margin-top : 60px;
+   background-color: pink;
+   color: black;
 }
