@@ -275,4 +275,7 @@ input{border-radius: 100%;}
 
 .btn{
    margin-top : 60px;
+   background: yellow;
+   color:black;
+   
 }
